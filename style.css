@@ -1,0 +1,94 @@
+header{
+    display: flex;
+    
+}
+nav{
+    background-color: black;
+    color: white;
+    margin-left: 25%;
+    width: 700px;
+    padding: 20px;
+}
+   
+.Joy{
+    display: flex;
+   width: 75%;
+   margin-top: 50px;
+   
+}
+.mrinalini{
+    border: 20px;
+    margin: 20px;
+    
+    
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.abid{
+    background-color: pink;
+  border: 5px solid white;
+ 
+   padding: 50px;
+}
+.abid p{
+    width: 70%;
+}
+h1{
+    color: darkblue;
+}
+h2{
+   text-align: center;
+    color: darkblue;
+    margin-top: 100px;
+}
+.jui{
+    display: flex;
+    margin-top: 50px;
+}
+.jui p{
+    width: 50%;
+    margin-left: 50px;
+}
+.jui h1, button{
+    margin-left: 5%;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+footer h1{
+    color: white;
+}
+.Joy:hover img{
+    transform: rotate(360deg);
+    transition: transform 3s linear;
+}
+button{
+    background-color: darkblue;
+    color: white;
+}
+.fas{
+    background-color: darkblue;
+    color: white;
+    font-size: 1.2em;
+    margin: 5px;
+}
+.fab{
+   margin-right: 5px;
+}
+.far{
+    margin-left: 5px;
+   
+}
+@media (max-width 500px) {
+    .mrinalini{
+        padding-bottom: 20px;
+    }
+    
+}
+
+ 
