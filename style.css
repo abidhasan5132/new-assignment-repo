@@ -9,22 +9,30 @@ nav{
     width: 700px;
     padding: 20px;
 }
+
    
 .Joy{
     display: flex;
+    flex-direction: row;
+    
+    
    width: 75%;
    margin-top: 50px;
    
 }
+
+
 .mrinalini{
     border: 20px;
     margin: 20px;
-    
+   display: flex;
+   flex-direction: row;
     
    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+   
+   
 }
+
 .abid{
     background-color: pink;
   border: 5px solid white;
@@ -84,11 +92,56 @@ button{
     margin-left: 5px;
    
 }
-@media (max-width 500px) {
+@media (max-width: 500px) {
+    .abid{
+        width: 100%;
+    }
     .mrinalini{
-        padding-bottom: 20px;
+        flex-direction: column;
+    }
+}
+@media (min-width: 900px) {
+    .abid{
+        width: 100%;
     }
     
 }
+@media (max-width: 500px) {
+    .start, camera{
+        width: 100%;
+    }
+    .Joy{
+        flex-direction: column;
+    }
+}
+@media (min-width: 900px) {
+    .start, camera{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 500px) {
+    .ab, bc{
+        width: 100%;
+    }
+    .jui{
+        flex-direction: column;
+    }
+}
+@media (min-width: 900px) {
+    .ab, bc{
+        width: 100%;
+    }
+    
+}
+
+        
+    
+
+       
+    
+
+
+
 
  
